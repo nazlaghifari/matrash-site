@@ -27,7 +27,7 @@
 </head>
 
 <body style="background: #EFFBF7">
-  <nav class="navbar fixed-top navbar-expand-md navbar-custom ">
+  <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light ">
     <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -54,7 +54,7 @@
         </div>
         <div class="modal-body">
           <div class="form-group">
-            <input type="text" name="email" class="form-control form-control-user" placeholder="Alamat Email">
+            <input type="text" name="email" class="form-control form-control-user" placeholder="Email">
           </div>
           <div class="form-group">
             <input type="password" name="password" class="form-control form-control-user" placeholder="Kata Sandi">
@@ -143,8 +143,11 @@
     </div>
   </div>
   -->
+  <div class="container ">
 
-  <div class="container p-5">
+  </div>
+
+  <div class="container p-5 mt-5 text-white" style="background: #2D851F">
     <div class="row p-5">
       <div class="col-lg-12">
         <h2>FEATURES</h2>
@@ -153,9 +156,9 @@
         </p>
       </div>
     </div>
-    <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+    <ul class="nav nav-tab " id="myTab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Angkut Cepat</a>
+        <a class="nav-link active " id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Angkut Cepat</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Angkut Berlangganan</a>
@@ -166,7 +169,7 @@
         <!-- Angkut Cepat-->
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-sm p-5">
+            <div class="col-sm p-3">
               <br />
               <h3>Angkut Cepat</h3>
               <form action="" method="post">
